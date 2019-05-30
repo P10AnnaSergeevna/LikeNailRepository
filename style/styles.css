@@ -1,0 +1,52 @@
+body{
+	background-color: antiquewhite
+}
+.header{
+ background-color: white;
+    margin: 30px;
+    padding: 30px;
+	width: 750px;
+    height: 100px;
+	border-radius: 60px;
+	
+	
+}
+.menu{
+	margin: 5px;
+    padding: 5px;
+	width: 600px;
+    height: 200px;
+	background-color:aqua;
+}
+.logo{
+	font-size: 10px;
+	
+	width: 200px;
+    height: 100px;
+	background-color:coral;
+}
+.nav{
+	font-size: 10px;
+	padding-right: 150px;
+	
+	left: 10px
+	position: relative;
+	
+}
+.navigation{
+	font-size: 18px;
+	padding-right: 150px;
+	top: 7px;
+	
+	
+	
+}
+.nav2{
+	font-size: 12px;
+	padding-right: px;
+	top: 17px;
+	left: auto
+	position: relative;
+	
+	
+}
