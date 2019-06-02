@@ -1,22 +1,82 @@
 body{
-	background-color: antiquewhite;
-	
-}
-.page-header{
-	width: 1920px;
-	height: 100px;
-	background-color: aqua;
-	border-top: 100px;
-}
-.header{
- width: 1000px;
-	height: 80px;
-	background-color: white;
-	border-radius: 30px;
-	position: absolute;
-	list-style: none;
+  min-width: 1920px;
+  margin: 0;
   padding: 0;
-  margin-top : auto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404040;
+  background-color: antiquewhite;
+}
+	
+.page-header {
+  background-color: aquamarine;
+  position: absolute;
+  left: 390px;
+  top: 16px;
+  width: 1140px;
+  height: 91px;
+  z-index: 168;
 }
 
+
+ .header{
+ background-color: white;
+ border-radius: 20px;
+ left: 390px;
+ top: 16px;
+ width: 1140px;
+ height: 91px;
+ z-index: 168;
+}
+
+.logo{
+  border-style: solid;
+  border-width: 1px;
+  border-color: coral;
+  border-radius: 15px;
+  left: 1306px;
+  top: 57px;
+  width: 162px;
+  height: 83px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
 	
+.main-nav {
+  float: left;
+  width: 620px;
+  margin: 0;
+  margin-left: 125px;
+  padding: 0;
+  list-style: none;
+	
+}
+.main-nav li {
+  text-transform: uppercase;
+  list-style: none; 
+  
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+  text-decoration: none; 
+}
+.navigation {
+  float:left; 
+  margin-right:50px; 
+  padding-bottom: 160px; 
+	  
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+
