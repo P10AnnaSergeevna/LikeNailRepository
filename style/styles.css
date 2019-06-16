@@ -1,78 +1,60 @@
-body{
-  margin: 0;
-  padding: 0;
-  min-width: 1920px;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Garamond Medium", sans-serif;
-  color: #404040;
-  background-color: antiquewhite
-}
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	min-width: 1020px;
+ 	font-size: 16px;
+ 	line-height: 24px;
+ 	font-family: "Garamond Medium", sans-serif;
+ 	color: #404040;
+ 	background-color: antiquewhite
+ }
 
-.page-header {
-	min-height: 614px;
-	padding-top: 35px;
-    color: #c3c3c3;
-    background: url("../img/back%20background.png") no-repeat 50% 50%
+ .page-header {
+ 	min-height: 214px;
+ 	padding-top: 35px;
+ 	color: #c3c3c3
+ }
+
+ .header {
+ 	margin: 0 auto;
+ 	border-radius: 20px;
+ 	background-color: rgb(255, 255, 255);
+ 	left: 390px;
+ 	top: 16px;
+ 	width: 1140px;
+ 	height: 91px
+ }
+
+ .logo {
+ 	font-size: 28px;
+ 	font-family: "EB Garamond Medium";
+ 	color: rgb(153, 102, 102);
+ 	font-style: italic;
+ 	float: left;
+ 	width: 220px;
+ 	height: 83px;
+ 	padding-left: 10px;
+ 	padding-top: 5px
+ }
+
+ .logo img {
+ 	width: 50px;
+ 	height: 37px
+ }
+
+ .main-nav {
+ 	float: left;
+ 	width: 620px;
+ 	height: 74px;
+ 	margin: 20px 0 0  125px;
+ 	padding: 0;
+ 	list-style: none;
+ 	font-size: 18px;
+ 	font-family: "Roboto";
+ 	color: rgb(153, 102, 102) 
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
    
 }
- .header{
-	 
-  border-radius: 20px;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  left: 390px;
-  top: 16px;
-  width: 1140px;
-  height: 91px
-  
-}
-
-.logo{
-  float: left;
-  width: 220px;
-  height: 83px;
-  padding-left: 10px;
-  padding-top: 5px
-}
-.logo img {
-    width: 20px;
-    height: 20px
-}
-.main-nav {
-  float: left;
-  width: 620px;
-  height: 74px;
-  margin: 20px 0 0 125px;
-  padding: 0;
-  list-style: none;
-  font-size: 18px;
-  font-family: "Roboto";
-  color: rgb(153, 102, 102)
-}
-.main-nav li {
-	float: left;
-  
-  list-style: none  
-}
-.main-nav a:hover {
-  text-decoration: underline
-}
-.main-nav a:active {
-  color: rgba(255, 255, 255, 0.3)
-}
-a {
-  text-decoration: none;
-}
-.navigation {
-  float:left; 
-  margin-right:50px; 
-  padding-bottom: 160px 	  
-}
-.btn {
-  text-transform: uppercase;
-  text-decoration: none
-}
-
-
-
+a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
