@@ -1,60 +1,121 @@
  body {
+ 	display: block;
  	margin: 0;
  	padding: 0;
- 	min-width: 1020px;
- 	font-size: 16px;
- 	line-height: 24px;
- 	font-family: "Garamond Medium", sans-serif;
- 	color: #404040;
- 	background-color: antiquewhite
+ 	font-family: "Roboto", sans-serif;
+ 	background-color: #faf5ec
  }
 
  .page-header {
- 	min-height: 214px;
+ 	min-height: 55px;
  	padding-top: 35px;
- 	color: #c3c3c3
  }
 
  .header {
  	margin: 0 auto;
- 	border-radius: 20px;
- 	background-color: rgb(255, 255, 255);
- 	left: 390px;
- 	top: 16px;
- 	width: 1140px;
- 	height: 91px
+ 	border-radius: 45px;
+ 	background-color: white;
+ 	width: 1120px;
+ 	height: 90px;
+ 	padding: 0 60px;
  }
 
- .logo {
- 	font-size: 28px;
- 	font-family: "EB Garamond Medium";
- 	color: rgb(153, 102, 102);
- 	font-style: italic;
+ .header-logo {
+ 	color: #996666;
  	float: left;
- 	width: 220px;
- 	height: 83px;
- 	padding-left: 10px;
- 	padding-top: 5px
+ 	width: 174px;
+ 	height: 55px;
+ 	margin: 18px 0;
  }
 
- .logo img {
- 	width: 50px;
- 	height: 37px
+ p {
+ 	margin: 0;
+ 	padding: 0;
+ 	padding-top: 5px;
+ 	font-family: "Roboto", sans-serif;
+ 	font-size: 12px;
  }
 
  .main-nav {
  	float: left;
- 	width: 620px;
- 	height: 74px;
- 	margin: 20px 0 0  125px;
+ 	margin: 35px 0 0 150px;
  	padding: 0;
  	list-style: none;
- 	font-size: 18px;
- 	font-family: "Roboto";
- 	color: rgb(153, 102, 102) 
-}
-ul {
-  list-style: none; /*убираем маркеры списка*/
-   
-}
-a {text-decoration: none; /*убираем подчеркивание текста ссылок*/}
+ }
+
+ .main-nav li {
+ 	float: left;
+ 	margin-right: 40px
+ }
+
+ .text {
+ 	font-family: "EB Garamond", sans-serif;
+ 	margin-top: 15px;
+ 	float: right;
+ 	font-size: 24px;
+ 	font-weight: 600;
+ 	color: #857d70
+ }
+
+ .new {
+ 	float: right;
+ 	font-family: "Roboto", sans-serif;
+ 	font-weight: 600;
+ 	color: #857d70
+ }
+
+ ul {
+ 	display: block;
+ 	margin-block-start: 1em;
+ 	margin-block-end: 1em;
+ 	margin-inline-start: 0px;
+ 	margin-inline-end: 0px;
+ 	padding-inline-start: 40px
+ }
+
+ li {
+ 	display: list-item;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	/*убираем подчеркивание текста ссылок*/
+ }
+
+ .btn {
+ 	float: right;
+ 	width: 148px;
+ 	margin-top: 6px;
+ 	padding: 5px;
+ 	display: inline-block;
+ 	font-size: 13px;
+ 	border: 1px solid #dba65a;
+ 	background-color: white;
+ 	font-weight: normal;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color: #333333;
+ 	border-radius: 25px;
+
+ }
+
+
+ .btn:hover {
+ 	color: #404040;
+ 	background: #a38b70;
+ 	border-color: white
+ }
+
+ .btn:active {
+ 	color: rgba(64, 64, 64, 0.3);
+ 	background: white;
+ 	border-color: white
+ }
+
+ h2 {
+ 	font-family: "EB Garamond", sans-serif;
+	text-align: center;
+ 	font-size: 34px;
+ 	font-weight: 600;
+ 	color: #857d70
+ }
