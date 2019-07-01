@@ -1,21 +1,18 @@
  body {
- 	display: block;
  	margin: 0;
- 	padding: 0;
  	font-family: "Roboto", sans-serif;
  	background-color: #faf5ec
  }
 
  .page-header {
- 	min-height: 55px;
- 	padding-top: 35px;
+    padding-top: 16px;
  }
 
  .header {
  	margin: 0 auto;
  	border-radius: 45px;
  	background-color: white;
- 	width: 1120px;
+ 	width: 1020px;
  	height: 90px;
  	padding: 0 60px;
  }
@@ -28,19 +25,29 @@
  	margin: 18px 0;
  }
 
- p {
- 	margin: 0;
- 	padding: 0;
- 	padding-top: 5px;
- 	font-family: "Roboto", sans-serif;
+ .logo-likenail {
+ 	font-family: "EB Garamond Medium", sans-serif;
+	float: right;
+ 	font-size: 32px;
+	height: 34px;
+ 	font-style: italic;
+ 	color: #857d70;
+ 	font-weight: 500
+ }
+
+ .logo-tagline {
+ 	float: left;
+	margin: 0;
  	font-size: 12px;
  }
+
 
  .main-nav {
  	float: left;
  	margin: 35px 0 0 150px;
  	padding: 0;
  	list-style: none;
+	 
  }
 
  .main-nav li {
@@ -48,38 +55,20 @@
  	margin-right: 40px
  }
 
- .text {
- 	font-family: "EB Garamond", sans-serif;
+ .main-nav li a {
+ 	color: #996666;
+	 font-size: 18px;
+	 text-decoration: none;
+ }
+
+
+ .phone-number {
+ 	float: right;
+ 	font-weight: 600;
+ 	color: #857d70;
  	margin-top: 15px;
- 	float: right;
- 	font-size: 24px;
- 	font-weight: 600;
- 	color: #857d70
- }
-
- .new {
- 	float: right;
- 	font-family: "Roboto", sans-serif;
- 	font-weight: 600;
- 	color: #857d70
- }
-
- ul {
- 	display: block;
- 	margin-block-start: 1em;
- 	margin-block-end: 1em;
- 	margin-inline-start: 0px;
- 	margin-inline-end: 0px;
- 	padding-inline-start: 40px
- }
-
- li {
- 	display: list-item;
- }
-
- a {
- 	text-decoration: none;
- 	/*убираем подчеркивание текста ссылок*/
+	 font-size: 24px;
+	 line-height: 24px;
  }
 
  .btn {
@@ -95,8 +84,7 @@
  	text-align: center;
  	text-decoration: none;
  	color: #333333;
- 	border-radius: 25px;
-
+ 	border-radius: 25px
  }
 
 
@@ -114,7 +102,7 @@
 
  h2 {
  	font-family: "EB Garamond", sans-serif;
-	text-align: center;
+ 	text-align: center;
  	font-size: 34px;
  	font-weight: 600;
  	color: #857d70
