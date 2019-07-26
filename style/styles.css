@@ -5,7 +5,7 @@
  }
 
  .page-header {
-    padding-top: 16px;
+ 	padding-top: 16px;
  }
 
  .header {
@@ -27,9 +27,9 @@
 
  .logo-likenail {
  	font-family: "EB Garamond Medium", sans-serif;
-	float: right;
+ 	float: right;
  	font-size: 32px;
-	height: 34px;
+ 	height: 34px;
  	font-style: italic;
  	color: #857d70;
  	font-weight: 500
@@ -37,7 +37,7 @@
 
  .logo-tagline {
  	float: left;
-	margin: 0;
+ 	margin: 0;
  	font-size: 12px;
  }
 
@@ -47,7 +47,7 @@
  	margin: 35px 0 0 150px;
  	padding: 0;
  	list-style: none;
-	 
+
  }
 
  .main-nav li {
@@ -57,8 +57,8 @@
 
  .main-nav li a {
  	color: #996666;
-	 font-size: 18px;
-	 text-decoration: none;
+ 	font-size: 18px;
+ 	text-decoration: none;
  }
 
 
@@ -67,8 +67,8 @@
  	font-weight: 600;
  	color: #857d70;
  	margin-top: 15px;
-	 font-size: 24px;
-	 line-height: 24px;
+ 	font-size: 24px;
+ 	line-height: 24px;
  }
 
  .btn {
@@ -100,10 +100,75 @@
  	border-color: white
  }
 
- h2 {
- 	font-family: "EB Garamond", sans-serif;
- 	text-align: center;
- 	font-size: 34px;
- 	font-weight: 600;
- 	color: #857d70
+
+ .promo {
+ 	width: 1380px;
+ 	height: 600px;
+ 	position: fixed;
+ 	background: url(/LikeNailRepository/img/back%20background.png);
+ 	background-position: center
  }
+
+ .container {
+ 	width: 480px;
+ 	height: 300px;
+ 	position: relative;
+ 	right: 300px;
+ 	margin-top: 100px;
+ 	margin-left: 490px
+ }
+
+ .promo-text,.text-tagline {
+ 	font-family: "EB Garamond Medium", sans-serif;
+ 	font-size: 32px;
+ 	font-style: italic;
+ 	color: #857d70;
+ 	font-weight: 500 
+ 
+ 	
+ }
+
+
+ .btn-promo {
+
+ 	float: left;
+ 	width: 180px;
+ 	height: 22px;
+ 	margin-top: 6px;
+ 	padding: 5px;
+ 	display: inline-block;
+ 	font-size: 16px;
+ 	border: 1px solid #dba65a;
+ 	background-color: rgb(255, 204, 102);
+ 	font-weight: normal;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	color: #333333;
+ 	border-radius: 25px
+ }
+
+ .btn-promo:hover {
+ 	color: #404040;
+ 	background: #a38b70;
+ 	border-color: white
+ }
+
+ .btn-promo:active {
+ 	color: rgba(64, 64, 64, 0.3);
+ 	background: ;
+ 	border-color: white
+ }
+
+ .header-social {
+ 	width: 160px;
+ 	height: 20px;
+ 	margin-left: 200px
+
+ }
+.instagram{
+	width:160px; /*ширина блока, равная ширине картинки фона*/
+height:40px; /*высота блока, равная высоте картинки фона*/
+url(/LikeNailRepository/img/soc-sprite.png);  /*путь к фоновуму изображению*/
+
+margin-left: 200px: 
+}
