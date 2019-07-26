@@ -105,7 +105,7 @@
  	width: 1380px;
  	height: 600px;
  	position: fixed;
- 	background: url(/LikeNailRepository/img/back%20background.png);
+ 	background-image: url('../img/fon.png');
  	background-position: center
  }
 
@@ -113,19 +113,19 @@
  	width: 480px;
  	height: 300px;
  	position: relative;
- 	right: 300px;
+ 	right: 30`0px;
  	margin-top: 100px;
  	margin-left: 490px
  }
 
- .promo-text,.text-tagline {
+ .promo-text,
+ .text-tagline {
  	font-family: "EB Garamond Medium", sans-serif;
  	font-size: 32px;
  	font-style: italic;
  	color: #857d70;
- 	font-weight: 500 
- 
- 	
+ 	font-weight: 500;
+	margin: 0
  }
 
 
@@ -163,12 +163,15 @@
  	width: 160px;
  	height: 20px;
  	margin-left: 200px
-
  }
-.instagram{
-	width:160px; /*ширина блока, равная ширине картинки фона*/
-height:40px; /*высота блока, равная высоте картинки фона*/
-url(/LikeNailRepository/img/soc-sprite.png);  /*путь к фоновуму изображению*/
 
-margin-left: 200px: 
-}
+ .instagram {
+ 	width: 160px;
+ 	/*ширина блока, равная ширине картинки фона*/
+ 	height: 40px;
+ 	/*высота блока, равная высоте картинки фона*/
+ 	url(/LikeNailRepository/img/soc-sprite.png);
+ 	/*путь к фоновуму изображению*/
+
+ 	margin-left: 200px:
+ }
